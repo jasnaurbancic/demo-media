@@ -1,0 +1,67 @@
+body
+{
+	background-color: #CCCCF5;
+	font-family: 'Sonsie One', cursive;
+}
+
+h1
+{
+	/*font-family: 'Sonsie One', cursive;*/
+	text-shadow: 5px 5px 5px #0000CC;
+}
+
+/*h2
+{
+	font-family: 'Sonsie One', cursive;
+}
+
+h3
+{
+	font-family: 'Sonsie One', cursive;
+}*/
+
+p
+{
+	font-family: 'Sonsie One', cursive;
+	word-wrap: break-word;
+	font-size: 10pt;
+}
+
+div
+{
+	width:100px;
+	height:100px;
+	background-color: #0000CC;
+	border-radius: 5px;
+}
+div#div2
+{
+	transform: translate(150px,-100px);
+	-ms-transform: translate(150px,-100px); /* IE 9 */
+	-webkit-transform: translate(150px,-100px); /* Safari and Chrome */
+	background-color: #8080E6;
+}
+	
+div#div3
+{
+	transform: rotateY(180deg);
+	-ms-transform: rotateY(180deg); /* IE 9 */
+	-webkit-transform: rotateY(180deg); /* Safari and Chrome */
+}
+
+article
+{
+	column-count: 3;
+	-moz-column-count:3; /* Firefox */
+	-webkit-column-count:3; /* Safari and Chrome */
+}
+
+@media handeld and (max-width: 480px), screen and (max-device-width: 480px), screen and(max-width: 600px)
+{
+	article
+	{
+		column-count: 1;
+	-moz-column-count:1; /* Firefox */
+	-webkit-column-count:1;
+	}
+		
